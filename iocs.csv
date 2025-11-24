@@ -1,0 +1,9 @@
+Category,Value,Description,Source
+Network,10.1.17.215,IP da Vítima,Wireshark Analysis
+Endpoint,00:0d:b7:26:4a:74,MAC Address,Ethernet Header
+Endpoint,DESKTOP-P43IU7F,Hostname da Vítima,Kerberos Traffic
+Identity,shutchenson,Usuário Comprometido,Kerberos CNameString
+Network,authenticatoor.org,Domínio de Phishing (Typosquatting),HTTP Request
+Network,5.252.153.241,C2 Server IP (Principal),Traffic Analysis
+Network,45.125.66.32,C2 Server IP (Secundário),Traffic Analysis
+Network,45.125.66.252,C2 Server IP (Terciário),Traffic Analysis
