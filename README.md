@@ -1,14 +1,14 @@
 # Análise Forense de Tráfego de Rede: Fake Software Site
 
-Data da Análise: 26/10/2025
-Ferramenta: Wireshark
-Fonte do Desafio: Malware-Traffic-Analysis.net (2025-01-22)
-Link do Exercício: https://www.malware-traffic-analysis.net/2025/01/22/index.html
+Data da Análise: 26/10/2025<br>
+Ferramenta: Wireshark<br>
+Fonte do Desafio: Malware-Traffic-Analysis.net (2025-01-22)<br>
+Link do Exercício: https://www.malware-traffic-analysis.net/2025/01/22/index.html<br>
 
 ---
 
 ## 1. Resumo do Incidente
-Identificamos um host interno comprometido após o usuário acessar um domínio de typosquatting através de um anúncio malicioso. A máquina realizou o download de um artefato e iniciou comunicação com servidores de Comando e Controle (C2).
+(Descrição tirada do site) Identificamos um host interno comprometido após o usuário acessar um domínio de typosquatting através de um anúncio malicioso. A máquina realizou o download de um artefato e iniciou comunicação com servidores de Comando e Controle (C2).
 
 ## 2. Identificação da Vítima
 
@@ -53,7 +53,7 @@ Evidência 5 - Comunicação com C2 (45.125.66.32):
 ---
 
 ## 4. Indicadores de Comprometimento (IoCs)
-Arquivo CSV pronto para importação em SIEM/Firewall: [iocs.csv](./iocs.csv)
+Arquivo csv pronto para importação em SIEM/Firewall: [iocs.csv](./iocs.csv)
 
 ```csv
 Type,Value,Description
@@ -63,4 +63,5 @@ IP,45.125.66.32,C2 Server
 IP,45.125.66.252,C2 Server
 ```
 ---
+
 Autor: @rfxz-vault
